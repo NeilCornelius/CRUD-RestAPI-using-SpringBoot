@@ -1,0 +1,13 @@
+This is a sample java application which 
+contains 
+
+Product.java -- which acts as the entity class and contains all the table constraints
+
+ProductController.java -- which acts the RestController and handled all the HTTP requests like POST,GET,PUT,DELETE
+
+ProductRepository.java -- which acts as the interface that is implemented extending JPARepository
+
+ProductService.java -- which is the service layer that contains the main logic of all the actions which are used in productController
+
+SpringBootJpaApplication.java -- which is the main file which contains the SpringBoot IOC Container
+
